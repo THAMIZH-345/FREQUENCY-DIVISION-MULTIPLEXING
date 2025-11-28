@@ -4,7 +4,7 @@ To implement Frequency Division Multiplexing (FDM) for six different message sig
 # APPARATUS REQUIRED
    1. Computer System
    2. Scilab Software
-#ALGORITHM
+# ALGORITHM
   1. Set sampling frequency, time duration, and time vector.
   2. Generate six message signals with different frequencies.
   3. Assign six different carrier frequencies.
@@ -17,7 +17,7 @@ To implement Frequency Division Multiplexing (FDM) for six different message sig
 Frequency Division Multiplexing (FDM) is a technique in which multiple message signals are transmitted simultaneously over a single communication channel by assigning each signal a different carrier frequency. Each message modulates its own carrier, and all modulated signals are added to form the multiplexed signal. Since the carrier frequencies are well separated, the signals do not overlap in the frequency domain.
 
 At the receiver, each signal is recovered by multiplying the multiplexed signal with the corresponding carrier (coherent demodulation) and passing it through a low-pass filter to extract the original baseband message. FDM is widely used in radio broadcasting, telephone systems, and cable TV.
-#PROGRAM
+# PROGRAM
 ```ASM
 clc;
 clear;
